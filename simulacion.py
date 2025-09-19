@@ -1,3 +1,4 @@
+
 import time
 import tkinter as tk
 from collections import deque
@@ -86,9 +87,7 @@ def ejecutar_simulacion():
     thread.start()
 
 
-# =====================
 # Interfaz gráfica con Tkinter
-# =====================
 ventana = tk.Tk()
 ventana.title("Simulación de Procesos")
 
@@ -102,3 +101,4 @@ texto_simulacion.pack(padx=10, pady=10)
 
 # Ejecutar la ventana
 ventana.mainloop()
+
